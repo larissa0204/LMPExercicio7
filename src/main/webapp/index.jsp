@@ -18,9 +18,9 @@ Segundo Número <br>
 <input  type="text" name="n2"> <br> <br>
  
  <select name="operacoes">
- <option value="+">+</option>
-  <option value="-">-</option>
-   <option value=""></option>
+ <option value="+">-</option>
+  <option value="-">+</option>
+   <option value="*">*</option>
     <option value="/">/</option>
  </select>
 

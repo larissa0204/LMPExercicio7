@@ -1,5 +1,4 @@
-package br.com.rd;
-
+import java.com.br.rd
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,16 +7,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class PrimeiroServlet
+ * Servlet implementation class servlet
  */
-@WebServlet("/PrimeiroServlet")
-public class PrimeiroServlet extends HttpServlet {
+@WebServlet("/servlet")
+public class servlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public PrimeiroServlet() {
+    public servlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -65,7 +64,6 @@ public class PrimeiroServlet extends HttpServlet {
 		
 		
 		
-		request.getRequestDispatcher("/").forward(request, response);  
 		
 	}
 
